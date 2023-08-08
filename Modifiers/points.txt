@@ -54,6 +54,7 @@ by the inherited class
 
 
 STATIC:
+-------------------------------------------------------------------------------------
 It is a keyword which used to access all the data members of the class by class name of by 
 its name.
 
@@ -62,5 +63,57 @@ it is mainly used for variable initialization.
 if a variable or method is Declared as static it is shared through all the instances of the class
 so the memory is allocated only once
 
+FINAL
+--------------------------------------------------------------------------------------
+If a class is declared as final then is cannot be inherited by the subclasses
+If a method is declared as final then is cannot be overridden 
+If a method Parameter is final then we can be sure that there will be no changed
+If a variable is final it cannot be reassigned
+final int age;
+age = 21 is valid
+age = 22 is not valid ... 
+if we declared a final value 1st assigination will be accepted
 
 
+STRICTFP:
+-------------------------------------------------------------------------------------
+Whenever we are working with floating point calculation there may a platform dependent
+result to assure that we are working with platform independent data we use strictfp...
+strictfp can be only used for class and methods
+we can use the strictfp for both interface and abstract 
+
+
+SYNCRONIZATION: 
+------------------------------------------------------------------------------------
+allows only one thread to execute
+
+NATIVE :
+-------------------------------------------------------------------------------------
+can be used only on mehtods legacy methods can be implemented
+
+VOLATILE:
+--------------------------------------------------------------------------------------
+can be used only on variables, which shows the value updated by  thread is visible to
+anothter thread... 
+
+TRANSIENT
+---------------------------------------------------------------------------------------
+can be used only on variables, Serialization
+
+Access Modifiers:
+
+public: Accessible from anywhere.
+protected: Accessible within the same package and subclasses.
+Default (no modifier): Accessible only within the same package.
+private: Accessible only within the same class.
+
+Non-Access Modifiers:
+
+abstract: Indicates that a class or method is incomplete and must be implemented by subclasses.
+final: Prevents a class from being extended, a method from being overridden, or a variable from being reassigned.
+static: Indicates that a field or method belongs to the class rather than instances of the class.
+transient: Indicates that a field should not be serialized when the class is serialized.
+volatile: Indicates that a field's value may be changed by multiple threads, and access should be synchronized.
+synchronized: Provides thread-safe access to methods or blocks, ensuring only one thread can execute them at a time.
+native: Declares that a method is implemented in a platform-specific manner, usually in another language like C or C++.
+strictfp: Ensures consistent floating-point arithmetic across different platforms.

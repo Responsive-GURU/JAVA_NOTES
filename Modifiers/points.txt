@@ -38,3 +38,29 @@ if we create a method wihtout any access modifier it is treated as "default"
 class and subclasses within the same package can access it
 
 
+NON - ACCESS MODIFIERS:
+1.abstract
+2.static
+
+ABSTRACT
+------------------------------------------------------------------------------------
+abstract keyword is used only for the class and method
+1. if a method is not abstract then we need to define the method
+2. we cannot use final keyword for the abstract mehtods because it need to be overriden 
+by the inherited class
+3. we can have a constructor for the abstract class
+4. we cannot create an object for the abstract class directly 
+5. abstract method implementation should be done by its inherited class without fail
+
+
+STATIC:
+It is a keyword which used to access all the data members of the class by class name of by 
+its name.
+
+static blocks are executed at the time of class loading 
+it is mainly used for variable initialization.
+if a variable or method is Declared as static it is shared through all the instances of the class
+so the memory is allocated only once
+
+
+

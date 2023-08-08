@@ -3,6 +3,7 @@ MODIFIERS:
 1.PUBLIC
 2.PRIVATE
 3.PROTECTED
+4.DEFAULT
 
 NOTE :
 1. We need to access the data members through an instance(Object) if the data member is 
@@ -26,5 +27,14 @@ that are inherited.
 
 PROTECTED
 --------------------------------------------------------------------------------------
-Protected data members can be access only within the packages even the subclasses can also
-access it 
+Protected data members can be access only within the packages. If we need to access the 
+methods in "protected" in other packages we can create a child class for the available
+protected method ... class  --> then we  can access it..
+
+DEFAULT
+-----------------------------------------------------------------------------------------
+It is available only within the package that the method is created..
+if we create a method wihtout any access modifier it is treated as "default" 
+class and subclasses within the same package can access it
+
+

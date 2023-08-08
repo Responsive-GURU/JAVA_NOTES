@@ -1,0 +1,30 @@
+MODIFIERS:
+
+1.PUBLIC
+2.PRIVATE
+3.PROTECTED
+
+NOTE :
+1. We need to access the data members through an instance(Object) if the data member is 
+not static
+2. If the data member is static then we can access it directly
+
+if any class contain the main method and it is imported in another packages we can access
+the main method of the respective class... and it execution starts without any error.
+
+PUBLIC:
+------------------------------------------------------------------------------------
+Accessible anywhere in the program and can be accessed in any of the packages...
+
+PRIVATE:
+------------------------------------------------------------------------------------
+It will be accessible only within the class where the private method is created
+
+Private data member of the class only be available within the class not for the subclasses
+that are inherited.
+
+
+PROTECTED
+--------------------------------------------------------------------------------------
+Protected data members can be access only within the packages even the subclasses can also
+access it 

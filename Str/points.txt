@@ -1,0 +1,18 @@
+String a = "guru" 
+memory will be allocated in SCP and the reference will be stored in heap
+
+String b = new String("bharan");
+this bharan will be create in SCP and the copy will be created in heap memory, reference 
+will be pointing out in heap
+
+
+String c = "guru"
+String d = new String("guru")
+
+for a literal guru will be create in SCP and referenced by c
+for an object if the string is already present in SCP then its copy will be created in heap
+and the reference will be pointing out
+
+vice versa for 
+String e = new String("bharan");
+String f = "bharan";

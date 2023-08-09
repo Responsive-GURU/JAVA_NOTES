@@ -1,0 +1,10 @@
+Interface provide the outline, which can be overriden by any classes
+
+1. Interface methods are by default --> public and abstract
+2. Interface declaration should be public or abstract
+3. If we need to define a method in interface we use "default" modifier on methods to 
+define them.
+
+if there are two interfaces then if one interface extends other interface ... then a 
+class implements the extended interface it can access all the abstract mehtods available 
+in both the interface.

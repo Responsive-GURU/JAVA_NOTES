@@ -8,3 +8,19 @@ define them.
 if there are two interfaces then if one interface extends other interface ... then a 
 class implements the extended interface it can access all the abstract mehtods available 
 in both the interface.
+
+VARIABLES:
+the VARIABLES declared inside interface are public static final by default
+
+TYPES:
+
+FUNCTIONAL INTERFACE ....
+The interface which contains only one method is known functional interface.
+If an interface is funcitnal interface then we can implement the method using lambda
+expression
+
+
+Adapter class.....
+A class implements an interface but it only overrides only some of the methods that is
+necessary for the class and another class extends the class which implemented the interface
+

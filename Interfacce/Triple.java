@@ -20,6 +20,6 @@ public class Triple  implements Animal,Tiger{
         Triple tp = new Triple();
         tp.eat();
         tp.name();
-        tp.hello();
+        // tp.hello();
     }
 }

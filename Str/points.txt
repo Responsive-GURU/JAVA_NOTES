@@ -16,3 +16,31 @@ and the reference will be pointing out
 vice versa for 
 String e = new String("bharan");
 String f = "bharan";
+
+---------------------------------------------------------------------------------------
+String a ="guru";
+String b ="guru";
+System.out.println(a==b);
+System.out.println(a.equals(b));
+output:
+true
+true
+== check that the reference is pointing to the same object 
+equals() checks the contents of the string is an exact match
+
+----------------------------------------------------------------------------------
+Mehtods:
+
+1. charAt(int index) => returns char at the specified index
+2. length() => returns int ... length of the string
+3. substring(int) => returns the string from the specified index to the end...
+4. substring(int, int)=> returns the string from specified start and end index;
+5. contains(string)=> return boolean if the specified string is present in the string 
+then it will return true else it will return false
+6. str1.equals(str2) => return boolean ... true if the content of both the string is same
+7. str.isEmpty() => return boolean ... true if the string is isEmpty
+8. str.concat(str2) => return string ... after concating both the string
+9. str.replace(char, char) => return string ... replaced string
+10. str.replace(str,str)= > return string .... replace string
+11. str.equalsIgnoreCase(str) => return boolean .. return true if the both stirng has
+same value but the Case is different
